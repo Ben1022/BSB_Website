@@ -14,34 +14,23 @@ body {
   color: #333;
   line-height: 1.6;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
   flex-direction: column;
-}
-
-/* Container styling */
-.container {
-  text-align: center;
+  align-items: center;
+  margin: 0;
 }
 
 /* Header styling */
-h1 {
-  font-size: 4rem;
-  color: #0073e6; /* Berkeley Blue */
-  margin-top: 1rem;
-}
-
-/* Image styling */
-.logo {
-  width: 50px; /* Adjusted the size to be about three times smaller */
-  margin-bottom: 1rem;
+header {
+  width: 100%;
+  background-color: #0073e6; /* Berkeley Blue */
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
 /* Navigation styling */
 nav {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 nav a {
@@ -53,4 +42,31 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image styling */
+.logo {
+  width: 50px; /* Adjusted the size to be about three times smaller */
+  margin-bottom: 1rem;
+}
+
+/* Section styling */
+section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #0073e6; /* Berkeley Blue */
+  color: white;
+  text-align: center;
+  width: 100%;
 }
