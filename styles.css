@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-  color: #0073e6;
+  color: white; /* Change the color of subpage titles to white */
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.2rem;
@@ -60,13 +60,6 @@ nav a:hover {
 section {
   width: 80%;
   margin: 20px auto;
-}
-
-h2 {
-  color: white; /* Change the color of subpage titles to white */
-  background-color: #0073e6; /* Optional: Add a background color to make it stand out */
-  padding: 10px;
-  border-radius: 5px;
 }
 
 footer {
