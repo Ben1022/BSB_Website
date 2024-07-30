@@ -62,6 +62,13 @@ section {
   margin: 20px auto;
 }
 
+h2 {
+  color: white; /* Change the color of subpage titles to white */
+  background-color: #0073e6; /* Optional: Add a background color to make it stand out */
+  padding: 10px;
+  border-radius: 5px;
+}
+
 footer {
   margin-top: auto;
   padding: 10px;
@@ -70,3 +77,4 @@ footer {
   text-align: center;
   width: 100%;
 }
+
