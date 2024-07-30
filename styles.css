@@ -29,7 +29,7 @@ body {
 /* Header styling */
 h1 {
   font-size: 4rem;
-  color: #0073e6; /* Berkeley Blue */
+  color: #083464; /* Berkeley Blue */
   margin-top: 1rem;
 }
 
@@ -41,7 +41,7 @@ h1 {
 
 /* Additional styles for links or other elements */
 a {
-  color: #0073e6;
+  color: #083464;
   text-decoration: none;
 }
 
