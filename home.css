@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+}
+
+/* Header styling */
+h1 {
+  font-size: 4rem;
+  color: #0073e6; /* Berkeley Blue */
+  margin-bottom: 1rem;
+}
+
+/* Subheader styling */
+h2 {
+  font-size: 2rem;
+  color: #003262; /* Berkeley Blue Darker */
+}
+
+/* Additional styles for links or other elements */
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
