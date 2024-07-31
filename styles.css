@@ -91,6 +91,16 @@ nav a:hover {
   transform: translateY(-50%);
 }
 
+/* Banner styling */
+.banner {
+  background-color: #e0f7fa; /* Light blue color */
+  color: #0073e6; /* Berkeley Blue text */
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 15px;
+  width: 100%;
+}
+
 /* Container styling */
 .container {
   text-align: center;
