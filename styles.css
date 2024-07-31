@@ -131,18 +131,24 @@ section {
 .important-dates {
   background-color: white;
   color: black;
-  margin-top: 100px;
+  margin-top: 0px;
   text-align: center;
 }
 
 .important-title {
   font-size: 1.8rem;
   font-weight: bold;
+  margin-top: 10px;
 }
 
-.important-info {
+.important-info1 {
   font-size: 1.6rem;
   margin-top: 10px;
+}
+
+.important-info2 {
+  font-size: 1.6rem;
+  margin: 10px;
 }
 
 footer {
