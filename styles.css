@@ -123,7 +123,7 @@ nav a:hover {
 
 /* Section styling */
 section {
-  width: 80%;
+  width: 100%;
   margin: 20px auto;
 }
 
@@ -131,7 +131,7 @@ section {
 .important-dates {
   background-color: white;
   color: black;
-  margin-top: 20px;
+  margin-top: 0px;
   text-align: center;
 }
 
