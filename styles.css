@@ -102,28 +102,10 @@ nav a:hover {
 
 /* Banner styling */
 .banner {
-  background-color: #0e3166; /* Light blue color */
-  color: #ffffff; /* Berkeley Blue text */
+  background-color: #e0f7fa; /* Light blue color */
+  color: #0073e6; /* Berkeley Blue text */
   text-align: center;
   font-size: 1.6rem;
-  padding: 15px;
-  width: 100%;
-}
-
-.banner1 {
-  background-color: #ffffff; /* Light blue color */
-  color: #000000; /* Berkeley Blue text */
-  text-align: center;
-  font-size: 2.0rem;
-  padding: 15px;
-  width: 100%;
-}
-
-.banner2 {
-  background-color: #ffffff; /* Light blue color */
-  color: #000000; /* Berkeley Blue text */
-  text-align: center;
-  font-size: 1.8rem;
   padding: 15px;
   width: 100%;
 }
@@ -144,6 +126,25 @@ nav a:hover {
 section {
   width: 80%;
   margin: 20px auto;
+}
+
+/* Important dates styling */
+.important-dates {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.important-title {
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.important-info {
+  font-size: 1.8rem;
+  margin-top: 10px;
 }
 
 footer {
