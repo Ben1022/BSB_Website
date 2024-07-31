@@ -110,6 +110,24 @@ nav a:hover {
   width: 100%;
 }
 
+.banner1 {
+  background-color: #ffffff; /* Light blue color */
+  color: #000000; /* Berkeley Blue text */
+  text-align: center;
+  font-size: 2.0rem;
+  padding: 15px;
+  width: 100%;
+}
+
+.banner2 {
+  background-color: #ffffff; /* Light blue color */
+  color: #000000; /* Berkeley Blue text */
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 15px;
+  width: 100%;
+}
+
 /* Container styling */
 .container {
   text-align: center;
