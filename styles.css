@@ -142,12 +142,12 @@ section {
 
 .important-info {
   font-size: 1.6rem;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 footer {
   margin-top: auto;
-  padding: 10px;
+  padding: 0px;
   background-color: #0073e6; /* Berkeley Blue */
   color: white;
   text-align: center;
