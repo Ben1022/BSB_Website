@@ -23,7 +23,7 @@ body {
 header {
   width: 100%;
   background-color: #0073e6; /* Berkeley Blue */
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   color: white;
 }
@@ -106,7 +106,7 @@ nav a:hover {
   color: #ffffff; /* Berkeley Blue text */
   text-align: center;
   font-size: 1.6rem;
-  padding: 0px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -131,7 +131,7 @@ section {
 .important-dates {
   background-color: white;
   color: black;
-  margin-top: 10px;
+  margin-top: 100px;
   text-align: center;
 }
 
