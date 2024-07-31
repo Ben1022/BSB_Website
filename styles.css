@@ -124,14 +124,14 @@ nav a:hover {
 /* Section styling */
 section {
   width: 100%;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 /* Important dates styling */
 .important-dates {
   background-color: white;
   color: black;
-  margin-top: 0px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -142,7 +142,7 @@ section {
 
 .important-info {
   font-size: 1.6rem;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 footer {
