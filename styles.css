@@ -91,9 +91,18 @@ nav a:hover {
   transform: translateY(-50%);
 }
 
+/* Remove arrow for subpages and center text */
+.dropdown-content a::after {
+  content: ''; /* Remove the arrow */
+}
+
+.dropdown-content a {
+  text-align: center; /* Center the text */
+}
+
 /* Banner styling */
 .banner {
-  background-color: #0c2457; /* Light blue color */
+  background-color: #0e3166; /* Light blue color */
   color: #ffffff; /* Berkeley Blue text */
   text-align: center;
   font-size: 1.6rem;
@@ -127,4 +136,3 @@ footer {
   text-align: center;
   width: 100%;
 }
-
