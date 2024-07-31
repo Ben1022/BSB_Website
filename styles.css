@@ -106,7 +106,7 @@ nav a:hover {
   color: #ffffff; /* Berkeley Blue text */
   text-align: center;
   font-size: 1.6rem;
-  padding: 15px;
+  padding: 0px;
   width: 100%;
 }
 
@@ -147,7 +147,7 @@ section {
 
 footer {
   margin-top: auto;
-  padding: 0px;
+  padding: 10px;
   background-color: #0073e6; /* Berkeley Blue */
   color: white;
   text-align: center;
