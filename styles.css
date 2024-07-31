@@ -124,7 +124,8 @@ nav a:hover {
 /* Section styling */
 section {
   width: 100%;
-  margin: 0px auto;
+  margin: 0px;
+  padding: 10px;
 }
 
 /* Important dates styling */
@@ -141,14 +142,9 @@ section {
   margin-top: 10px;
 }
 
-.important-info1 {
+.important-info {
   font-size: 1.6rem;
   margin-top: 10px;
-}
-
-.important-info2 {
-  font-size: 1.6rem;
-  margin: 10px;
 }
 
 footer {
