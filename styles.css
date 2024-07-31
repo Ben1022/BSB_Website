@@ -102,7 +102,7 @@ nav a:hover {
 
 /* Banner styling */
 .banner {
-  background-color: #000000; /* Light blue color */
+  background-color: #151c87; /* Light blue color */
   color: #ffffff; /* Berkeley Blue text */
   text-align: center;
   font-size: 1.6rem;
@@ -113,7 +113,6 @@ nav a:hover {
 /* Container styling */
 .container {
   text-align: center;
-  padding: 20px;
 }
 
 /* Image styling */
@@ -142,7 +141,7 @@ section {
 }
 
 .important-info {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-top: 10px;
 }
 
