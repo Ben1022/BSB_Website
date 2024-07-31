@@ -102,8 +102,8 @@ nav a:hover {
 
 /* Banner styling */
 .banner {
-  background-color: #e0f7fa; /* Light blue color */
-  color: #0073e6; /* Berkeley Blue text */
+  background-color: #000000; /* Light blue color */
+  color: #ffffff; /* Berkeley Blue text */
   text-align: center;
   font-size: 1.6rem;
   padding: 15px;
@@ -132,13 +132,12 @@ section {
 .important-dates {
   background-color: white;
   color: black;
-  padding: 20px;
   margin-top: 20px;
   text-align: center;
 }
 
 .important-title {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
