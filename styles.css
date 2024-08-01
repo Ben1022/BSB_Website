@@ -45,6 +45,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Custom class for white links with white underline */
+.white-link {
+  color: white;
+  text-decoration-color: white;
+}
+
 /* Dropdown menu styling */
 .dropdown {
   position: relative;
