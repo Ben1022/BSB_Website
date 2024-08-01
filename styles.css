@@ -138,7 +138,8 @@ section {
 .important-title {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 0px;
+  padding-top: 10px;
 }
 
 .important-info {
