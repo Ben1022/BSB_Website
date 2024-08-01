@@ -151,7 +151,8 @@ section {
 .video-section {
   background-color: #9e9d9d; /* Light gray color */
   text-align: center;
-  /*padding: 30px;*/
+  padding-top: 30px;
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -160,7 +161,7 @@ section {
 }
 
 footer {
-  padding: 0px;
+  padding: 10px;
   background-color: #0073e6; /* Berkeley Blue */
   color: white;
   text-align: center;
@@ -200,7 +201,7 @@ footer {
   }
 
   .video-container iframe {
-    width: 100%;
+    width: 60%;
     height: auto;
   }
 }
