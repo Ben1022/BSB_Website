@@ -131,14 +131,12 @@ section {
 .important-dates {
   background-color: white;
   color: black;
-  margin-top: 0px;
   text-align: center;
 }
 
 .important-title {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 0px;
   padding-top: 10px;
 }
 
@@ -158,6 +156,25 @@ section {
 
 .video-container {
   text-align: center;
+}
+
+.about {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.about-info {
+  font-size: 1.4rem;
+  margin-top: 15px;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 
 footer {
