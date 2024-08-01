@@ -147,6 +147,19 @@ section {
   margin-top: 10px;
 }
 
+/* Video section styling */
+.video-section {
+  background-color: #9e9d9d; /* Light gray color */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.video-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
 footer {
   margin-top: auto;
   padding: 10px;
