@@ -151,7 +151,7 @@ section {
 .video-section {
   background-color: #9e9d9d; /* Light gray color */
   text-align: center;
-  padding: 30px;
+  /*padding: 30px;*/
   width: 100%;
 }
 
