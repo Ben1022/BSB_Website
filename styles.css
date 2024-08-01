@@ -150,13 +150,12 @@ section {
 /* Video section styling */
 .video-section {
   background-color: #9e9d9d; /* Light gray color */
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   width: 100%;
 }
 
 .video-container {
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -168,3 +167,56 @@ footer {
   text-align: center;
   width: 100%;
 }
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .logo {
+    width: 30px; /* Adjust logo size for mobile */
+  }
+
+  .banner {
+    font-size: 1.4rem;
+  }
+
+  .important-dates {
+    padding: 10px;
+  }
+
+  .important-title {
+    font-size: 1.6rem;
+  }
+
+  .important-info {
+    font-size: 1.4rem;
+  }
+
+  .video-container iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    font-size: 1.2rem;
+  }
+
+  .important-title {
+    font-size: 1.4rem;
+  }
+
+  .important-info {
+    font-size: 1.2rem;
+  }
+}
+
