@@ -221,6 +221,12 @@ footer {
     width: 60%;
     height: auto;
   }
+
+  .about-info {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -234,6 +240,12 @@ footer {
 
   .important-info {
     font-size: 1.2rem;
+  }
+  
+  .about-info {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 1rem;
   }
 }
 
