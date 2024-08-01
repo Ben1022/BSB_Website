@@ -106,7 +106,7 @@ nav a:hover {
   color: #ffffff; /* Berkeley Blue text */
   text-align: center;
   font-size: 1.6rem;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -138,7 +138,7 @@ section {
 .important-title {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .important-info {
