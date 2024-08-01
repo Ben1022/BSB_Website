@@ -131,14 +131,14 @@ section {
 .important-dates {
   background-color: white;
   color: black;
-  margin-top: 10px;
+  margin-top: 0px;
   text-align: center;
 }
 
 .important-title {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .important-info {
