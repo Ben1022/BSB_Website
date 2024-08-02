@@ -405,7 +405,7 @@ footer {
   }
 
   .res img {
-    max-width: 90%;
+    max-width: auto;
   }
 }
 
@@ -443,7 +443,7 @@ footer {
   }
 
   .res img {
-    max-width: 90%;
+    max-width: auto;
   }
 }
 
