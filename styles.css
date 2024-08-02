@@ -10,8 +10,8 @@
 /* Body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #ffffff;
+  color: #000000;
   line-height: 1.6;
   display: flex;
   flex-direction: column;
@@ -196,22 +196,21 @@ section {
 }
 
 .resources-title {
-  font-size: 25.6px;
+  font-size: 24px;
   font-weight: bold;
   padding-top: 15px;
   padding-left: 15%;
 }
 
 .resources-info {
-  font-size: 22px;
+  font-size: 20px;
   padding-top: 10px;
   padding-left: 15%;
 }
 
-.resources-links {
-  font-size: 20px;
-  padding-top: 10px;
-  padding-left: 15%;
+.faq {
+  background-color: white;
+  color: black;
 }
 
 .faq-title {
@@ -235,6 +234,67 @@ section {
   padding-left: 15%;
   padding-right: 15%;
   text-align: left;
+}
+
+.volunteer {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.volunteer-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.volunteer-under {
+  font-size: 20px;
+  text-decoration: underline;
+  padding-top: 15px;
+}
+
+.volunteer-info {
+  font-size: 18px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 10px;
+}
+
+.sponsor {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.sponsor-text {
+  font-size: 20px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.sponsor-text1 {
+  font-size: 20px;
+  width: 100%;
+}
+
+.results {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.results-text {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 footer {
