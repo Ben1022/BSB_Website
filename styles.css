@@ -206,6 +206,7 @@ section {
   font-size: 20px;
   padding-top: 10px;
   padding-left: 15%;
+  padding-right: 15%;
 }
 
 .faq {
@@ -287,6 +288,8 @@ section {
 .results-text {
   font-size: 24px;
   padding-bottom: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .contact {
@@ -348,6 +351,10 @@ footer {
     width: 90%;
     height: auto;
   }
+
+  .contact {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -392,6 +399,14 @@ footer {
     width: 90%;
     height: auto;
   }
+
+  .contact {
+    font-size: 24px;
+  }
+
+  .res img {
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -422,5 +437,21 @@ footer {
     width: 75%;
     height: auto;
   }
+
+  .contact {
+    font-size: 20px;
+  }
+
+  .res img {
+    max-width: 90%;
+  }
 }
+
+
+
+
+
+
+
+
 
