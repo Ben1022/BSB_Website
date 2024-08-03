@@ -481,7 +481,6 @@ footer {
   .video-final-container {
     padding-top: 20%;
     padding-bottom: 20%; /* 16:9 aspect ratio */
-    height: 0;
     overflow: hidden;
     max-width: auto;
     background: #9e9d9d;
@@ -489,8 +488,6 @@ footer {
 
   .video-final-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
     width: auto;
     height: auto;
   }
