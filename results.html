@@ -5,33 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Results</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    .res {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto auto;
-      gap: 20px; /* Adjust spacing between images */
-      padding-left: 10%;
-      padding-right: 10%;
-      text-align: center;
-    }
-    .res img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .res .wide {
-      grid-column: span 49; /* Span across two columns */
-    }
-    .res .larger {
-      grid-column: 21 / 50; /* Make the third image take more space */
-    }
-    .res .norm {
-      grid-column: 1 / 21
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -53,7 +26,6 @@
     </nav>
   </header>
 
-
   <section class="container">
       <div class="results">
         <br>
@@ -65,28 +37,27 @@
         <br>
         <br>
         <p class="results-text"><strong><a href="https://docs.google.com/spreadsheets/d/1WsHzh4sylKsIHzADi7Q3fIv4LisvQdY5/edit?usp=sharing&ouid=108289897470035101392&rtpof=true&sd=true" target="_blank">Round Robin and Double Elimination Results:</a></strong></p>
-        </div>
+      </div>
 
-        <div class="pdf-container">
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTSOE_KXGoqqpA2MNMlf5t9593YKdabPKjBy6tw5hiAfefIxwuU0F9jKgDDBxtz_g/pubhtml?widget=true&amp;headers=false" width="70%" height="500px"></iframe>
-        </div> 
+      <div class="results-pdf-container">
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTSOE_KXGoqqpA2MNMlf5t9593YKdabPKjBy6tw5hiAfefIxwuU0F9jKgDDBxtz_g/pubhtml?widget=true&amp;headers=false" width="70%" height="500px"></iframe>
+      </div> 
 
-        <div class="results">
-          <br>
-          <br>
-          <p class="results-text">Find detailed Round Robin statistics <a href="https://docs.google.com/spreadsheets/d/1s15wI02Dj3JtZ7ctmel7JNKm5rElNhT3MSogr2u2eNc/edit?usp=sharing" target="_blank">here</a>!</p>
-          <br>
-          <p class="results-text">Gallery</p>
-          <br>
-        </div>
+      <div class="results">
+        <br>
+        <br>
+        <p class="results-text">Find detailed Round Robin statistics <a href="https://docs.google.com/spreadsheets/d/1s15wI02Dj3JtZ7ctmel7JNKm5rElNhT3MSogr2u2eNc/edit?usp=sharing" target="_blank">here</a>!</p>
+        <br>
+        <p class="results-text">Gallery</p>
+        <br>
+      </div>
 
-        <div class="res">
-          <img src="Images/BSB1.jpg" alt="1" class="wide" style="width: 1300px">
-          <img src="Images/BSB2.jpg" alt="2" class="norm" style="width: 500px">
-          <img src="Images/BSB3.jpg" alt="3" class="larger" style="width: 1400px">
-        </div>
+      <div class="res">
+        <img src="Images/BSB1.jpg" alt="1" class="wide" style="width: 1300px">
+        <img src="Images/BSB2.jpg" alt="2" class="norm" style="width: 500px">
+        <img src="Images/BSB3.jpg" alt="3" class="larger" style="width: 804px">
+      </div>
   </section>
-
 
   <footer>
     &copy; 2024 Berkeley Science Bowl. All rights reserved.

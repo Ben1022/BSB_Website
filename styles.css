@@ -1,13 +1,12 @@
 /* styles.css */
 
-/* Basic reset */
+/* #region: Body/navigation */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
@@ -19,7 +18,6 @@ body {
   margin: 0;
 }
 
-/* Header styling */
 header {
   width: 100%;
   background-color: #0073e6; /* Berkeley Blue */
@@ -28,13 +26,12 @@ header {
   color: white;
 }
 
-/* Navigation styling */
 nav {
   margin: 20px 0;
 }
 
 nav a {
-  color: white; /* Change the color of subpage titles to white */
+  color: white; 
   text-decoration: none;
   margin: 0 15px;
   font-size: 19.2px;
@@ -105,11 +102,12 @@ nav a:hover {
 .dropdown-content a {
   text-align: center; /* Center the text */
 }
+/* #endregion */
 
-/* Banner styling */
+/* #region: banner/container/logo/section */
 .banner {
-  background-color: #151c87; /* Light blue color */
-  color: #ffffff; /* Berkeley Blue text */
+  background-color: #151c87; 
+  color: #ffffff; 
   text-align: center;
   font-size: 28.8px;
   font-weight:bold;
@@ -117,26 +115,24 @@ nav a:hover {
   width: 100%;
 }
 
-/* Container styling */
 .container {
   text-align: center;
 }
 
-/* Image styling */
 .logo {
-  width: 50px; /* Adjusted the size to be about three times smaller */
+  width: 50px; 
   margin-bottom: 16px;
 }
 
-/* Section styling */
 section {
   width: 100%;
 }
 
-/* Important dates styling */
+
+/* #endregion */
+
+/* #region: Home page */
 .important-dates {
-  background-color: white;
-  color: black;
   text-align: center;
 }
 
@@ -152,27 +148,19 @@ section {
 }
 
 /* Video section styling */
-.video-section {
-  background-color: #9e9d9d; /* Light gray color */
+.video-final-section {
+  background-color: #9e9d9d; 
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
   width: 100%;
 }
 
-.video-container {
+.video-final-container {
   text-align: center;
-}
-
-/* PDF container styling */
-.pdf-container {
-  text-align: center;
-  padding-top:20px;
 }
 
 .about {
-  background-color: white;
-  color: black;
   text-align: center;
 }
 
@@ -188,10 +176,10 @@ section {
   padding-left: 12.5%;
   padding-right: 12.5%;
 }
+/* #endregion */
 
+/* #region: Resources page */
 .resources {
-  background-color: white;
-  color: black;
   text-align: left;
 }
 
@@ -209,9 +197,15 @@ section {
   padding-right: 15%;
 }
 
+.resources-pdf-container {
+  text-align: center;
+  padding-top:20px;
+}
+/* #endregion */
+
+/* #region: FAQ page */
 .faq {
-  background-color: white;
-  color: black;
+  text-align: left;
 }
 
 .faq-title {
@@ -236,10 +230,10 @@ section {
   padding-right: 15%;
   text-align: left;
 }
+/* #endregion */
 
+/* #region: Volunteer page */
 .volunteer {
-  background-color: white;
-  color: black;
   text-align: center;
 }
 
@@ -261,27 +255,54 @@ section {
   padding-right: 15%;
   padding-top: 10px;
 }
+/* #endregion */
 
+/* #region: Sponsor page */
 .sponsor {
-  background-color: white;
-  color: black;
   text-align: center;
+  padding-top: 40px;
 }
 
 .sponsor-text {
   font-size: 20px;
-  width: 100%;
   padding-bottom: 20px;
 }
 
 .sponsor-text1 {
   font-size: 20px;
-  width: 100%;
 }
 
+.spon-grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Adjust spacing between images */
+  justify-items: center; /* Center align images */
+  align-items: center; /* Center align images vertically */
+  padding: 20px;
+}
+.spon-grid3 img {
+  max-width: 100%;
+  height: auto;
+  margin: 30px 0; /* Adjust the top and bottom margin of the images */
+}
+
+.spon-grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Adjust spacing between images */
+  justify-items: center; /* Center align images */
+  align-items: center; /* Center align images vertically */
+  padding: 20px;
+}
+.spon-grid2 img {
+  max-width: 100%;
+  height: auto;
+  margin: 30px 0; /* Adjust the top and bottom margin of the images */
+}
+/* #endregion */
+
+/* #region: Results page */
 .results {
-  background-color: white;
-  color: black;
   text-align: center;
 }
 
@@ -292,6 +313,71 @@ section {
   padding-left: 10%;
 }
 
+.results-pdf-container {
+  text-align: center;
+  padding-top:20px;
+}
+
+.res {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px; /* Adjust spacing between images */
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.res img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.res .wide {
+  grid-column: span 5; /* Span across two columns */
+}
+
+.res .larger {
+  grid-column: 4 / 6; /* Make the third image take more space */
+}
+
+.res .norm {
+  grid-column: 1 / 3
+}
+/* #endregion */
+
+/* #region: Photo page */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Adjust the gap between images */
+  width: 80%; /* Adjust the container width as needed */
+  padding-top: 25px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo {
+  width: 40%; /* Adjust the container width as needed */
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* #endregion */
+
+/* #region: Contact page & Footer */
 .contact {
   font-size: 36px;
   text-align: center;
@@ -307,151 +393,4 @@ footer {
   text-align: center;
   width: 100%;
 }
-
-/* Responsive styling */
-@media (max-width: 1024px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav a {
-    margin: 10px 0;
-  }
-
-  .logo {
-    width: 40px; /* Adjust logo size for tablets */
-  }
-
-  .banner {
-    font-size: 24px;
-  }
-
-  .important-title {
-    font-size: 24px;
-  }
-
-  .important-info {
-    font-size: 20px;
-  }
-
-  .about-info {
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 20px;
-  }
-
-  .video-container iframe {
-    width: 80%;
-    height: auto;
-  }
-
-  .pdf-container iframe {
-    width: 90%;
-    height: auto;
-  }
-
-  .contact {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav a {
-    margin: 10px 0;
-  }
-
-  .logo {
-    width: 30px; /* Adjust logo size for mobile devices */
-  }
-
-  .banner {
-    font-size: 20px;
-  }
-
-  .important-title {
-    font-size: 20px;
-  }
-
-  .important-info {
-    font-size: 18px;
-  }
-
-  .about-info {
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 18px;
-  }
-
-  .video-container iframe {
-    width: 90%;
-    height: auto;
-  }
-
-  .pdf-container iframe {
-    width: 90%;
-    height: auto;
-  }
-
-  .contact {
-    font-size: 24px;
-  }
-
-  .res img {
-    max-width: auto;
-  }
-}
-
-@media (max-width: 480px) {
-  .banner {
-    font-size: 16px;
-  }
-
-  .important-title {
-    font-size: 16px;
-  }
-
-  .important-info {
-    font-size: 14px;
-  }
-
-  .about-info {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    font-size: 16px;
-  }
-
-  .video-container iframe {
-    width: 75%;
-    height: auto;
-  }
-
-  .pdf-container iframe {
-    width: 75%;
-    height: auto;
-  }
-
-  .contact {
-    font-size: 20px;
-  }
-
-  .res img {
-    max-width: auto;
-  }
-}
-
-
-
-
-
-
-
-
-
+/* #endregion */
