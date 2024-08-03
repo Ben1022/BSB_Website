@@ -396,8 +396,8 @@ footer {
 /* #endregion */
 
 /* #region: Responsive Styling */
-/* Responsive styling */
 @media (max-width: 1024px) {
+  /* #region: general stuff */
   nav {
     display: flex;
     flex-direction: column;
@@ -409,13 +409,14 @@ footer {
   }
 
   .logo {
-    width: 40px; /* Adjust logo size for tablets */
+    width: 40px; 
   }
 
   .banner {
     font-size: 24px;
   }
-
+  /* #endregion */
+  /* #region: home page */
   .important-title {
     font-size: 24px;
   }
@@ -434,16 +435,68 @@ footer {
     padding-right: 5%;
   }
 
-  .resources-title, .faq-title, .volunteer-title, .contact {
-    font-size: 24px;
+  .video-final-container {
+    overflow: hidden;
+    max-width: auto;
+    background: #9e9d9d;
   }
 
-  .resources-info, .faq-question, .faq-answer, .volunteer-info {
+  .video-final-container iframe {
+    position: auto;
+    width: auto;
+    height: auto;
+  }
+  /* #endregion */
+  /* #region: resource page */
+  .resources-title {
+    font-size: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .resources-info {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .resources-pdf-container {
+    text-align: center;
+    padding-top:20px;
+    width: 80%;
+  }
+  /* #endregion */
+  /* #region: FAQ page */
+  .faq-title {
+    font-size: 24px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .faq-question {
     font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
   }
 
+  .faq-answer {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* #endregion */
+  /* #region: Volunteer/Contact page */
+  .volunteer-title, .contact {
+    font-size: 24px;
+  }
+
+  .volunteer-info {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* #endregion */
+  /* #region: Sponsor Page */
   .sponsor-text, .sponsor-text1 {
     font-size: 20px;
   }
@@ -456,6 +509,7 @@ footer {
   .spon-grid3 img, .spon-grid2 img {
     margin: 10px 0;
   }
+  /* #endregion */
 
   .results-text {
     font-size: 20px;
@@ -477,102 +531,5 @@ footer {
   .photo {
     width: 80%;
   }
-
-  .video-final-container {
-    padding-top: 20%;
-    padding-bottom: 20%; /* 16:9 aspect ratio */
-    overflow: hidden;
-    max-width: auto;
-    background: #9e9d9d;
-  }
-
-  .video-final-container iframe {
-    position: absolute;
-    width: auto;
-    height: auto;
-  }
 }
-
-@media (max-width: 768px) {
-  .logo {
-    width: 30px; /* Adjust logo size for smaller devices */
-  }
-
-  .banner {
-    font-size: 20px;
-  }
-
-  .important-title {
-    font-size: 20px;
-  }
-
-  .important-info {
-    font-size: 18px;
-  }
-
-  .about-title {
-    font-size: 20px;
-  }
-
-  .about-info {
-    font-size: 18px;
-  }
-
-  .resources-title, .faq-title, .volunteer-title, .contact {
-    font-size: 20px;
-  }
-
-  .resources-info, .faq-question, .faq-answer, .volunteer-info {
-    font-size: 18px;
-  }
-
-  .sponsor-text, .sponsor-text1 {
-    font-size: 18px;
-  }
-
-  .results-text {
-    font-size: 18px;
-  }
-
-  .res img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .banner {
-    font-size: 16px;
-  }
-
-  .important-title {
-    font-size: 18px;
-  }
-
-  .important-info {
-    font-size: 16px;
-  }
-
-  .about-title {
-    font-size: 18px;
-  }
-
-  .about-info {
-    font-size: 16px;
-  }
-
-  .resources-title, .faq-title, .volunteer-title, .contact {
-    font-size: 18px;
-  }
-
-  .resources-info, .faq-question, .faq-answer, .volunteer-info {
-    font-size: 16px;
-  }
-
-  .sponsor-text, .sponsor-text1 {
-    font-size: 16px;
-  }
-
-  .results-text {
-    font-size: 16px;
-  }
-}
+/* #endregion */
